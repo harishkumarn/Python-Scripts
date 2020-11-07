@@ -169,8 +169,7 @@ def drawWall(direction):
 
 colorGrid = [ [ Label(root,fg='black',bg='yellow',width=2,height=1,borderwidth=1,relief='solid') for j in range(size) ] for i in range(size) ]
 
-def log(i,j):
-    print i,j
+
 for i in range(0,size):
     for j in range(0,size):
         colorGrid[i][j].grid(row=i,column=j)
